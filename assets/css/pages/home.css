@@ -419,3 +419,30 @@ min-width:280px;
     }
 
 }
+/* FEATURED PRODUCTS */
+
+.featured-products{
+
+    padding:80px 0;
+}
+
+.featured-slider{
+
+    display:flex;
+
+    gap:20px;
+
+    overflow-x:auto;
+
+    scrollbar-width:none;
+}
+
+.featured-slider::-webkit-scrollbar{
+
+    display:none;
+}
+
+.featured-slider .product-card{
+
+    min-width:280px;
+}
